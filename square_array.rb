@@ -4,6 +4,6 @@ def square_array(array)
   square_array
 end
 
-def square_array_2(array)
+def square_array_using_collect(array)
   array.collect {|x| x**2}
 end
